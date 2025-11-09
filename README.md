@@ -1,4 +1,4 @@
-# week-1-Design Phase Summary
+📂# week-1-Design Phase Summary
 
 Project Name : REAL-TIME FABRIC CLASSIFICATION USING ONNX and COMPUTER VISION
  
@@ -26,6 +26,31 @@ Expected output:
 
 7. Performs Live Prediction — provides instant results for any input.
 
+Outcome:
+Successfully completed the system design phase, finalized the project architecture, selected and prepared the dataset source, and planned the model training workflow for real-time fabric classification using ONNX and computer vision.
 
-# week-2 - Implementation Phase Summary
-"Testing model for REAL-TIME FABRIC CLASSIFICATION USING ONNX and COMPUTER VISION"
+📂# week-2 - Implementation Phase Summary
+Implementation Overview: "Testing model was implemented".
+Project Name: REAL-TIME FABRIC CLASSIFICATION USING ONNX and COMPUTER VISION".
+Dataset taken: "The Fabrics Dataset by iBUG" from kaggle.
+
+🔍 Code Overview:
+Section                     	Description
+Imports & Setup	             Loads libraries like TensorFlow, OpenCV, PIL, Matplotlib, etc.
+Dataset Paths                Uses train and validation folders (dataset_split/train, dataset_split/validation).
+Data Checking                Verifies both folders contain the same fabric classes.
+Data Augmentation	           Performs rescaling, shearing, zooming, flipping, etc.
+Model	                       Builds a transfer learning model using MobileNetV2 (ImageNet weights).
+Training	                    Uses ModelCheckpoint and EarlyStopping callbacks.
+Evaluation	                  Displays validation accuracy and a pie chart.
+Fabric Info	                 Stores eco-related info for each fabric (biodegradability, recyclability, etc.).
+Prediction Functions	
+Includes:                    *predict_image(model, img_path) for single image prediction.
+                             *live_predict(model) for real-time webcam predictions.
+
+Outcome:
+✅Achieved accurate fabric material classification using MobileNetV2.
+✅Successfully distinguished between natural, synthetic, and blended fabrics.
+✅Provided eco-impact insights like biodegradability, decomposition time, and recyclability.
+✅Enabled both image-based and real-time webcam fabric predictions.
+Demonstrated how AI can support sustainable fashion and material analysis.

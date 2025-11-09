@@ -10,34 +10,29 @@ The fashion industry significantly contributes to environmental pollution becaus
 
 This project proposes a Clothing Material Classification System using Convolutional Neural Networks (CNNs) — a deep learning model capable of recognizing and categorizing different clothing materials from images.
 
-Expected output:
+♦️ Expected output:
 
 1. Identifies the Type of Cloth (e.g., Cotton, Polyester, Denim, Silk, etc.)
-
 2. Detects if the Fabric is Mixed or Pure (e.g., Cotton + Polyester)
-
 3. Displays Biodegradability Information (Yes/No)
-
 4. Shows Estimated Time to Decompose in Soil
-
 5. Indicates if the Material is Recyclable
-
 6. Displays Model Accuracy using a Pie Chart
-
 7. Performs Live Prediction — provides instant results for any input.
 
-Outcome:
+📃 Outcome:
 Successfully completed the system design phase, finalized the project architecture, selected and prepared the dataset source, and planned the model training workflow for real-time fabric classification using ONNX and computer vision.
 
 📂# week-2 - Implementation Phase Summary
-Implementation Overview: "Testing model was implemented".
-Project Name: REAL-TIME FABRIC CLASSIFICATION USING ONNX and COMPUTER VISION".
-Dataset taken: "The Fabrics Dataset by iBUG" from kaggle.
+
+🧩Implementation Overview: "Testing model was implemented".
+
+✉️Dataset taken: "The Fabrics Dataset by iBUG" from kaggle.
 
 🔍 Code Overview:
 Section                     	Description
 Imports & Setup	             Loads libraries like TensorFlow, OpenCV, PIL, Matplotlib, etc.
-Dataset Paths                Uses train and validation folders (dataset_split/train, dataset_split/validation).
+Dataset Paths                Uses train and validation folders (dataset_split/train,dataset_split/validation).
 Data Checking                Verifies both folders contain the same fabric classes.
 Data Augmentation	           Performs rescaling, shearing, zooming, flipping, etc.
 Model	                       Builds a transfer learning model using MobileNetV2 (ImageNet weights).
@@ -48,7 +43,7 @@ Prediction Functions
 Includes:                    *predict_image(model, img_path) for single image prediction.
                              *live_predict(model) for real-time webcam predictions.
 
-Outcome:
+📃 Outcome:
 ✅Achieved accurate fabric material classification using MobileNetV2.
 ✅Successfully distinguished between natural, synthetic, and blended fabrics.
 ✅Provided eco-impact insights like biodegradability, decomposition time, and recyclability.

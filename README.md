@@ -49,3 +49,17 @@ Includes:                    *predict_image(model, img_path) for single image pr
 ✅Provided eco-impact insights like biodegradability, decomposition time, and recyclability.
 ✅Enabled both image-based and real-time webcam fabric predictions.
 Demonstrated how AI can support sustainable fashion and material analysis.
+
+📂# week-3 - Final Submission & Presentation Phase Summary
+
+1.Completed the final version of the Real-Time Fabric Classification Dashboard
+2.Integrated ONNX model, Gradio UI, and fabric biodegradability details
+3.Added confidence visualization through pie-chart accuracy
+4.Performed full testing with sample fabric images
+5.Prepared final documentation, report, and presentation slides
+6.Project ready for submission and demonstration
+
+🏁 Outcome
+
+The entire project — including the ONNX model, dashboard, documentation, and presentation — is fully completed and submitted.
+The system successfully classifies various fabric types and provides biodegradability and recyclability information, demonstrating a practical real-world application of deep learning in sustainable textile management and smart recycling systems.
